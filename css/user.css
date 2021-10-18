@@ -1,0 +1,522 @@
+@font-face {
+    font-family: Instagram;
+    src: url(../assets/fonts/instagram.otf);
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url(../assets/fonts/Segoe\ UI\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../assets/fonts/Segoe\ UI.ttf);
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(137, 43, 226, 0.068);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #eeeeee;
+}
+
+h1 {
+    font-family:  "Segoe UI Bold",sans-serif; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 89%;
+    background-color: #ffffff;
+}
+
+.containerProfilePicture {
+    display: flex;
+    width: 25%;
+    height: 15%;
+    /*background-color: blue;*/
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.profilePicture {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url(../assets/images/image-profile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerNumbers {
+    width: 65.5%;
+    height: 15%;
+    margin-top: 0.5rem;
+    /*background-color: chartreuse;*/
+}
+
+.containerTop {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    /*background-color: darkblue;*/
+}
+
+.containerPosts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: darkgreen;*/
+}
+
+.containerPostTextTop {
+    font-family:  "Segoe UI Bold",sans-serif;  
+}
+
+.containerPostText {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: rgb(100, 53, 0);*/ 
+}
+
+.containerPostTextBot {
+    font-family:  "Segoe UI",sans-serif; 
+    color: #bcbcbc;
+    font-size: 12px;
+}
+
+.containerFollowers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: darkkhaki;*/
+}
+
+
+.containerFollowers > p {
+    font-family:  "Segoe UI Bold",sans-serif;  
+}
+
+.containerFollowersBot {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: rgb(107, 189, 125);*/ 
+}
+
+.containerFollowersBot > p {
+    font-family:  "Segoe UI",sans-serif; 
+    color: #bcbcbc;
+    font-size: 12px;
+}
+
+.containerFollowing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: darkkhaki;*/
+}
+
+.containerFollowing > p {
+    font-family:  "Segoe UI Bold",sans-serif; 
+}
+
+.containerFollowingBot {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    /*background-color: rgb(189, 107, 171);*/
+}
+
+.containerFollowingBot > p {
+    font-family:  "Segoe UI",sans-serif; 
+    color: #bcbcbc;
+    font-size: 12px;
+}
+
+/*edit profile*/
+.containerBot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    /*background-color: rgb(53, 199, 72);*/
+}
+
+.boxEdit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 60%;
+    border-radius: 5%;
+    background-color: #eeeeee;
+    border: 2px solid f0f0f0;
+}
+
+.boxText {
+    font-family:  "Segoe UI Bold",sans-serif;
+}
+
+.containerBioPhotos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80%;
+    /*background-color: maroon;*/
+}
+
+.bioUser {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0%;
+    width: 30%;
+    height: 25%;
+    /*background-color: mediumaquamarine;*/
+}
+
+.nameUser {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    /*background-color: mediumblue;*/
+}
+
+.nameUser > p {
+    font-family:  "Segoe UI Bold",sans-serif;
+    font-size: 12px;
+}
+
+.bioArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    /*background-color: darkgoldenrod;*/
+    margin-bottom: 60%;
+}
+
+.bioArea > p {
+    font-family:  "Segoe UI",sans-serif;
+    font-size: 10px;
+}
+
+.bioText {
+    width: 100%;
+    height: 20%;
+    /*background-color: mediumseagreen;*/
+}
+
+.metadeBaixo {
+    width: 100%;
+    height: 60%;
+    background-color: #ffffff;
+}
+
+.containerMenuBar {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    /*background-color: blueviolet;*/
+    border-top: 2px solid #eeeeee;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.fristMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /*background-color: chartreuse;*/
+}
+
+.imageMenu{
+    width: 100%;
+    height: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    background-image: url(../assets/instagram-tela-2/menu-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerMenuTwoBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /*background-color: rgb(255, 0, 0);*/ 
+}
+
+.menuTwo {
+    width: 100%;
+    height: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    background-image: url(../assets/instagram-tela-2/menu-2.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerMenuThree {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /*background-color: rgb(255, 0, 212);*/
+}
+
+.menuThree {
+    width: 100%;
+    height: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    background-image: url(../assets/instagram-tela-2/menu-3.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerMenuFour {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    /*background-color: rgb(4, 0, 255);*/
+}
+
+.menuFour {
+    width: 100%;
+    height: 100%;
+    max-width: 30px;
+    max-height: 30px;
+    background-image: url(../assets/instagram-tela-2/menu-4.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.photosPart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /*background-color: blue;*/
+}
+
+.photosTop {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /*background-color: crimson;*/
+}
+
+.photoTopOne {
+    width: 32.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/jab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.photoTopTwo {
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/estacao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0.5%;
+}
+
+.photoTopThree {
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/recife.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0.5%; 
+}
+
+.photosBot {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /*background-color: rgb(53, 220, 20);*/
+}
+
+.photoBotOne {
+    width: 32.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/recife-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5%;
+}
+
+.photoBotTwo {
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/recife-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+}
+
+.photoBotThree {
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/recife-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5%;
+    margin-left: 0.5%;  
+}
+
+.photoBotThree {
+    width: 33.3%;
+    height: 100%;
+    background-image: url(../assets/instagram-tela-2/recife-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 0.5%;
+    margin-left: 0.5%;    
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 97%;
+    z-index: 2;
+    width: 8em;
+    margin-top: -2.5em;
+    width: 100vw;
+    height: 10vh;
+    border-top: 2px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+.homePart {
+    width: 20%;
+    height: 80%;
+}
+
+.homeIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.pesquisaPart {
+    width: 20%;
+    height: 80%;
+
+}
+
+.pesquisaIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/pesquisa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.picturePart {
+    width: 20%;
+    height: 80%;
+
+}
+
+.pictureIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/camera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+
+}
+
+.heartPart {
+    width: 20%;
+    height: 100%; 
+}
+
+.heartIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.profilePart {
+    width: 20%;
+    height: 100%; 
+}
+
+.profileIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/profile-selected.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;  
+}
+
+

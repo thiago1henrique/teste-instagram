@@ -1,0 +1,576 @@
+@font-face {
+    font-family: Instagram;
+    src: url(../assets/fonts/instagram.otf);
+}
+
+@font-face {
+    font-family: "Segoe UI Bold";
+    src: url(../assets/fonts/Segoe\ UI\ Bold.ttf);
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url(../assets/fonts/Segoe\ UI.ttf);
+}
+
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    border-bottom: 2px solid #eeeeee;
+}
+
+.header-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: Instagram, sans-serif;
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 30%;
+}
+
+.containerBoxMessenger {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.messengerBox {
+    width: 30px;
+    height: 30px;
+    background-image: url(../assets/icons/CaixaDeMsg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 5%;
+}
+/*end-header*/
+
+/*main*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.containerName {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin-top: 3rem;
+    /*background-color: darkcyan;*/
+}
+
+.imageProfile {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /*background-color: crimson;*/
+}
+
+.imageIcon {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../assets/images/image-profile.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+}
+
+.imageIconProfile {
+    font-family:  "Segoe UI",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 3rem;
+}
+
+.dots {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%;
+
+}
+
+.dotsText {
+    color: rgb(0, 0, 0);
+    font-family:  "Segoe UI",sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+
+}
+
+.imagePost {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../assets/images/jab.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heart-gray {
+    width: 80vw;
+    height: 20vh;
+    opacity: 80%;
+    background-image: url(../assets/icons/heart.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerInteracao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21vh;
+    width: 100vw;
+    /*background-color: tomato;*/
+}
+
+.likePart { 
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 35%;
+    width: 100%;
+    /*background-color: violet;*/
+}
+
+.heartTop {
+    height: 100%;
+    width: 15%;
+    /*background-color: yellow;*/
+}
+
+.heartTopIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart-like.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.comentTop {
+    height: 100%;
+    width: 15%;
+    /*background-color: rgb(0, 195, 255);*/
+}
+
+.comentIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/coments.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px; 
+}
+
+.shareTop {
+    height: 100%;
+    width: 15%;
+    /*background-color: rgb(255, 0, 0);*/
+}
+
+.shareIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/share.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 35px;  
+}
+
+.textArea {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    /*background-color: rgb(128, 233, 107);*/
+}
+
+.heartBlackArea {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    /*background-color: brown;*/
+}
+
+.heartBlackIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart-coment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 10px;  
+}
+
+.numberLikes {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(54, 42, 165);*/
+}
+
+.textNumberLikes {
+    font-family: Segoe UI Bold, sans-serif;
+}
+
+.comentsArea {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    /*background-color: cadetblue;*/
+}
+
+.nameUserText {
+    font-family: Segoe UI Bold, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.textUser {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.textColor {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+/*postagem 2*/
+
+.containerPostTwo {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.nameProfileArea {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    /*background-color: blueviolet;*/
+}
+
+.profilePhoto {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    /*background-color: brown;*/
+}
+
+.imageProfileTwo {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-image: url(../assets/images/acount-icon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem; 
+}
+
+.imageIconProfileTwo {
+    display: flex;
+    font-family:  "Segoe UI",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 3rem;  
+}
+
+
+
+.dotsTwo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 50%; 
+}
+
+.dotsTextTwo {
+    color: rgb(0, 0, 0);
+    font-family:  "Segoe UI",sans-serif;
+    font-size: 20px;
+    line-height: 18px;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;  
+}
+
+.imagePostTwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../assets/images/flashback.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.containerInteracaoTwo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 21vh;
+    width: 100vw; 
+}
+
+.barInteracaoTwo {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 35%;
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+}
+
+.heartBot {
+    height: 100%;
+    width: 15%;
+    /*background-color: chartreuse;*/
+}
+
+.heartBotIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.comentBot {
+    height: 100%;
+    width: 15%;
+    /*background-color: chocolate;*/
+}
+
+.comentBotIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/coments.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.shareBot {
+    height: 100%;
+    width: 15%;
+    /*background-color: rgb(255, 0, 0);*/
+}
+
+.shareBotIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/share.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 35px;
+}
+
+.textAreaBot {
+    display: flex;
+    height: 30%;
+    width: 100%;
+    /*background-color: rgb(128, 233, 107);*/
+}
+
+.heartBlackAreaBot {
+    display: flex;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    /*background-color: brown;*/
+}
+
+.heartBlackIconBot {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart-coment.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 10px; 
+}
+
+.numberLikesBot {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(54, 42, 165);*/
+}
+
+.textNumberLikesBot {
+    font-family: Segoe UI Bold, sans-serif;
+}
+
+.comentsAreaBot {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    /*background-color: cadetblue;*/
+}
+
+.nameUserTextBot {
+    font-family: Segoe UI Bold, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.textUserBot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.textColorBot {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+/*fim main*/
+
+footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 97%;
+    z-index: 1;
+    width: 8em;
+    margin-top: -2.5em;
+    width: 100vw;
+    height: 10vh;
+    border-top: 2px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+.homePart {
+    width: 20%;
+    height: 80%;
+}
+
+.homeIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.pesquisaPart {
+    width: 20%;
+    height: 80%;
+
+}
+
+.pesquisaIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/pesquisa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.picturePart {
+    width: 20%;
+    height: 80%;
+
+}
+
+.pictureIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/camera.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+
+}
+
+.heartPart {
+    width: 20%;
+    height: 100%; 
+}
+
+.heartIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/heart-notifi.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;
+}
+
+.profilePart {
+    width: 20%;
+    height: 100%; 
+}
+
+.profileIcon {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/icons/instagram-assets/profile.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 30px;  
+}
+
